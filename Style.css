@@ -90,7 +90,7 @@ main{
     text-decoration: none;    
 }
 
-.credic a:hover{
+.credit a:hover{
     color: red;
     font-size: 1.2rem;    
 }
