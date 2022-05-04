@@ -62,7 +62,7 @@ main{
  padding-right: 0.5rem;
 }
 
-.card_info h2{
+.card_info h1{
     font-weight: 700;
     font-size: 1.8rem;
     text-align: center;
@@ -81,13 +81,24 @@ main{
 
 }
 
-.credic{
+.credit {
     margin-top: 3rem;
-    text-decoration: none;  
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    
 }
 
-.credic a{
-    text-decoration: none;    
+.credit h6{
+color: var(--Darkbluer-color);
+}
+
+
+.credit a{
+    margin-left: 0.5rem ;
+    margin-right: 0.5rem ;
+    text-decoration: none; 
+       
 }
 
 .credit a:hover{
